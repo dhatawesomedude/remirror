@@ -1,9 +1,9 @@
+import '@testing-library/jest-dom';
+
 import { toHaveNoViolations } from 'jest-axe';
 import { createSerializer, matchers } from 'jest-emotion';
 import { setupProsemirrorEnvironment } from 'jest-prosemirror';
 import { ignoreJSDOMWarnings, setupRemirrorEnvironment } from 'jest-remirror';
-
-require('@testing-library/jest-dom/extend-expect');
 
 expect.addSnapshotSerializer(createSerializer({}));
 expect.extend(toHaveNoViolations);

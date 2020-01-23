@@ -111,6 +111,7 @@ temp**
 @cloud/**/yarn.lock
 dependencies/**/yarn.lock
 
+!vscode/
 ./**/.vscode
 
 

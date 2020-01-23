@@ -1,18 +1,18 @@
 {
-  "private": true,
   "name": "@remirror/test-fixtures",
+  "version": "0.0.0",
+  "private": true,
   "description": "Test fixtures for remirror unit tests",
-  "license": "MIT",
-  "author": "Ifiok Jr. <ifiokotung@gmail.com>",
   "homepage": "https://github.com/ifiokjr/remirror/tree/master/@remirror/test-fixtures",
   "repository": "https://github.com/ifiokjr/remirror/tree/master/@remirror/test-fixtures",
-  "version": "0.0.0",
-  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "Ifiok Jr. <ifiokotung@gmail.com>",
   "files": [
     "lib",
     "src"
   ],
   "sideEffects": false,
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@babel/runtime": "^7",

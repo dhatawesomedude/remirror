@@ -1,18 +1,24 @@
 {
   "name": "jest-remirror",
+  "version": "0.7.3",
   "description": "A text editor for react built with prosemirror",
-  "license": "MIT",
-  "author": "Ifiok Jr. <ifiokotung@gmail.com>",
+  "keywords": [
+    "prosemirror",
+    "react",
+    "ssr",
+    "text editor"
+  ],
   "homepage": "https://github.com/ifiokjr/remirror/tree/master/packages/jest-remirror",
   "repository": "https://github.com/ifiokjr/remirror/tree/master/packages/jest-remirror",
-  "version": "0.7.3",
-  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "Ifiok Jr. <ifiokotung@gmail.com>",
   "files": [
     "environment.d.ts",
     "environment.js",
     "lib",
     "src"
   ],
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@babel/runtime": "^7",
@@ -25,7 +31,7 @@
     "@types/prosemirror-model": "^1.7.2",
     "@types/prosemirror-view": "^1.11.2",
     "jest-prosemirror": "^0.7.3",
-    "jest-snapshot": "^24.9.0",
+    "jest-snapshot": "^25.1.0",
     "mutationobserver-shim": "0.3.3",
     "prosemirror-model": "^1.7.4",
     "prosemirror-state": "^1.2.4",
@@ -38,12 +44,6 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
-  "keywords": [
-    "prosemirror",
-    "react",
-    "ssr",
-    "text editor"
-  ],
   "publishConfig": {
     "access": "public"
   }

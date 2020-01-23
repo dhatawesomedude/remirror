@@ -17,8 +17,6 @@ docs/.cache/
 docs/gatsby-config.js
 
 .cache
-package.json
-**/package.json
 **/.next
 lerna.json
 .vscode
