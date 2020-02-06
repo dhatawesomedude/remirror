@@ -1,5 +1,13 @@
 # @remirror/showcase
 
+## 0.7.6
+
+### Patch Changes
+
+- f7969a67: - Update a username in exported showcase data to reflect a failing scenario.
+- Updated dependencies [f7969a67]
+  - @remirror/editor-social@0.9.0
+
 ## 0.7.5
 
 ### Patch Changes
